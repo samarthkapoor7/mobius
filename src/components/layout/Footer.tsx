@@ -1,3 +1,5 @@
+import LogoBlue from '@/assets/logo-blue.png';
+
 
 export default function Footer() {
     return (
@@ -5,7 +7,7 @@ export default function Footer() {
         <div className="w-full">
           <div className="flex flex-col md:flex-row justify-between items-start gap-10 border-b border-gray-300 pb-10">
           <div className="flex flex-col items-start ml-8">
-              <img src="src/assets/logo-blue.png" alt="MobiusEngine Logo" className="h-18 mb-2 ml-6" />
+              <img src={LogoBlue} alt="MobiusEngine Logo" className="h-18 mb-2 ml-6" />
               <hr className="border-gray-300 w-72 mt-6 mb-8 ml-6" /> 
               <div className="flex justify-center gap-28 text-sm text-custom-blue"> 
                 <div className="ml-6">

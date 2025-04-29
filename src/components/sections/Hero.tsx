@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from 'lucide-react';
 import HeroBG from '@/assets/HeroBG.png';
 import Navbar from '@/components/layout/Navbar';
+import eBook from '@/assets/image 1.png'
 
 const HeroSection: React.FC = () => {
   return (
@@ -30,7 +31,7 @@ const HeroSection: React.FC = () => {
             <div className="relative">
               <div className="bg-white rounded-lg shadow-xl p-4 rotate-3 transform">
                 <img 
-                  src="src/assets/image 1.png" 
+                  src={eBook} 
                   alt="Interview Guide eBook" 
                   className="rounded w-64 h-80 object-cover"
                 />

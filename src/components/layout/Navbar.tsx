@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ChevronDown } from 'lucide-react';
+import Logo from '@/assets/logo.png';
 
 const Navbar: React.FC = () => {
   const navItems = [
@@ -16,7 +17,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="w-full py-4 px-4 md:px-10 flex justify-between items-center">
       <div className="flex items-center space-x-2">
-        <img src="src/assets/logo.png" alt="MobiusEngine Logo" className="ml-4 h-8 w-auto" />
+        <img src={Logo} alt="MobiusEngine Logo" className="ml-4 h-8 w-auto" />
       </div>
       
       <div className="flex space-x-20">

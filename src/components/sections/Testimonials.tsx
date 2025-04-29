@@ -2,6 +2,9 @@
 import React from 'react';
 import { Play, ArrowRight, ArrowUpRight } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import Handshake from '@/assets/handshake.png';
+import User from '@/assets/user.png';
+import Star from '@/assets/star.png';
 
 interface VideoTestimonialProps {
   name: string;
@@ -74,17 +77,17 @@ const TestimonialsSection: React.FC = () => {
 
   const features = [
     {
-      icon: <img src='src/assets/handshake.png' className="w-11 h-10"></img>,
+      icon: <img src={Handshake} className="w-11 h-10"></img>,
       title: "Tried, Tested, Trusted",
       description: "Built by folks with 40+ years in tech and hiring — we know the game, and we’ve got your back."
     },
     {
-      icon: <img src='src/assets/user.png' className="w-9 h-10"></img>,
+      icon: <img src={User} className="w-9 h-10"></img>,
       title: "Real People, Real Help",
       description: "A hands-on team that actually cares — guiding you through every twist in your career path."
     },
     {
-      icon: <img src='src/assets/star.png' className="w-10 h-10"></img>,
+      icon: <img src={Star} className="w-10 h-10"></img>,
       title: "Beat the Line",
       description: "We search, shortlist, and apply for you, so your name shows up first — every single day."
     },
